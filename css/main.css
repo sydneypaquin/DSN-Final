@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+
+
+:root {
+    --bs-primary-color1: #ffffff; /* First color for the gradient */
+    --bs-primary-color2: #164e9f; /* Second color for the gradient */
+    --bs-secondary: #1C2C59;
+    --bs-light: #f6f3ed;
+    --bs-body-bg: #f6f3ed;
+}
+
+
+#hero {
+    height: 500px;
+    background-color: #E4E6DB;
+    background-image: url(../images/u16-divisions.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.header-footer-gradient {
+    background: linear-gradient(90deg, var(--bs-primary-color1), var(--bs-primary-color2));
+}
+
+.btn-primary {
+    --bs-btn-color: #f6f3ed;
+    --bs-btn-bg: #6B8EC2;
+    --bs-btn-border-color: #1C2C59;
+    --bs-btn-hover-color: #f6f3ed;
+}
